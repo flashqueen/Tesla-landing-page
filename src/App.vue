@@ -3,7 +3,7 @@
     <!-- Logo -->
     <img src="../public/images/tesla.svg" alt="tesla logo" class="h-6">
     <!-- Nav Links -->
-    <div>
+    <div class="hidden lg:block">
       <a href="#modelS" class="nav-link">Model S</a>
       <a href="#model3" class="nav-link">Model 3</a>
       <a href="#modelX" class="nav-link">Model X</a>
@@ -13,19 +13,126 @@
     </div>
     <!-- ext links -->
     <div>
-      <a href="#shop" class="nav-link">Shop</a>
-      <a href="#account" class="nav-link">Account</a>
+      <a href="#shop" class="nav-link hidden lg:block">Shop</a>
+      <a href="#account" class="nav-link hidden lg:block">Account</a>
       <a href="#menu" class="nav-link">Menu</a>
     </div>
   </header>
 
+  <!-- Model S Section Start -->
   <section id="modelS" class="car_section">
     <img src="../public/images/ModelS.jfif" alt="Model S Image" class="car_img">
+    <div class="car_details transform_50">
+      <h1 class="model_name">Model S</h1>
+      <h2 class="tag_line">Order Online for <span class="underline cursor-pointer">Touchless Delivery</span></h2>
+    </div>
+  
+    <div class="car_buttons transform_50">
+      <button class="btn">Custom Order</button>
+      <button class="btn inventory">Existing Inventory</button>
+    </div>
+  
+    <a href="#model3">
+      <svg class="down_svg" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"><path stroke="var(--tds-icon--fill, #171a20)" stroke-width="1.5" d="m19.5 12.5-4.5 4-4.5-4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
   </section>
+  <!-- Model S Section End -->
 
-  <div class="car_details transform_50">
-    <h1 class="model_name">Model S</h1>
-    <h2 class="tag_line">Order Online for <span class="underline cursor-pointer">Touchless Delivery</span></h2>
-  </div>
+  <!-- Model 3 Section Start -->
+  <section id="model3" class="car_section">
+    <img src="../public/images/Model3.jfif" alt="Model 3 Image" class="car_img">
+    <div class="car_details transform_50">
+      <h1 class="model_name">Model 3</h1>
+      <h2 class="tag_line">Order Online for <span class="underline cursor-pointer">Touchless Delivery</span></h2>
+    </div>
+  
+    <div class="car_buttons transform_50">
+      <button class="btn">Custom Order</button>
+      <button class="btn inventory">Existing Inventory</button>
+    </div>
+  
+    <a href="#modelX">
+      <svg class="down_svg" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"><path stroke="var(--tds-icon--fill, #171a20)" stroke-width="1.5" d="m19.5 12.5-4.5 4-4.5-4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+  </section>
+  <!-- Model 3 Section End -->
+
+  <!-- Model X Section Start -->
+  <section id="modelX" class="car_section">
+    <img src="../public/images/ModelX.jfif" alt="Model X Image" class="car_img">
+    <div class="car_details transform_50">
+      <h1 class="model_name">Model X</h1>
+      <h2 class="tag_line">Order Online for <span class="underline cursor-pointer">Touchless Delivery</span></h2>
+    </div>
+  
+    <div class="car_buttons transform_50">
+      <button class="btn">Custom Order</button>
+      <button class="btn inventory">Existing Inventory</button>
+    </div>
+  
+    <a href="#modelY">
+      <svg class="down_svg" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"><path stroke="var(--tds-icon--fill, #171a20)" stroke-width="1.5" d="m19.5 12.5-4.5 4-4.5-4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+  </section>
+  <!-- Model X Section End -->
+
+  <!-- Model Y Section Start -->
+  <section id="modelY" class="car_section">
+    <img src="../public/images/ModelY.jfif" alt="Model Y Image" class="car_img">
+    <div class="car_details transform_50">
+      <h1 class="model_name">Model Y</h1>
+      <h2 class="tag_line">Order Online for <span class="underline cursor-pointer">Touchless Delivery</span></h2>
+    </div>
+  
+    <div class="car_buttons transform_50">
+      <button class="btn">Custom Order</button>
+      <button class="btn inventory">Existing Inventory</button>
+    </div>
+  
+    <a href="#solarRoof">
+      <svg class="down_svg" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"><path stroke="var(--tds-icon--fill, #171a20)" stroke-width="1.5" d="m19.5 12.5-4.5 4-4.5-4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+  </section>
+  <!-- Model Y Section End -->
+
+  <!-- Solar Roof Section Start -->
+  <section id="solarRoof" class="car_section">
+    <img src="../public/images/SolarRoof.jfif" alt="Solar Roof Image" class="car_img">
+    <div class="car_details transform_50">
+      <h1 class="model_name">Solar Roof</h1>
+      <h2 class="tag_line">Order Online for <span class="underline cursor-pointer">Touchless Delivery</span></h2>
+    </div>
+  
+    <div class="car_buttons transform_50">
+      <button class="btn">Custom Order</button>
+      <button class="btn inventory">Existing Inventory</button>
+    </div>
+  
+    <a href="#solarPanels">
+      <svg class="down_svg" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"><path stroke="var(--tds-icon--fill, #171a20)" stroke-width="1.5" d="m19.5 12.5-4.5 4-4.5-4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+  </section>
+  <!-- Solar Roof Section End -->
+
+  <!-- Solar Panels Section Start -->
+  <section id="solarPanels" class="car_section">
+    <img src="../public/images/SolarPanels.jfif" alt="Solar Panels Image" class="car_img">
+    <div class="car_details transform_50">
+      <h1 class="model_name">Solar Panels</h1>
+      <h2 class="tag_line">Order Online for <span class="underline cursor-pointer">Touchless Delivery</span></h2>
+    </div>
+  
+    <div class="car_buttons transform_50">
+      <button class="btn">Custom Order</button>
+      <button class="btn inventory">Existing Inventory</button>
+    </div>
+  
+    <a href="#modelS">
+      <svg class="down_svg" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"><path stroke="var(--tds-icon--fill, #171a20)" stroke-width="1.5" d="m19.5 12.5-4.5 4-4.5-4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+  </section>
+  <!-- Solar Panels Section End -->
+
+
 </template>
 
